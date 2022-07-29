@@ -7,9 +7,9 @@ const NavBar = () => {
         ...theme.typography.button,
     }));
 
-    return <AppBar position="static" color="primary">
+    return <AppBar position="static" color="primary" sx={{minWidth:"100%"}}>
         <Toolbar style={{margin:"auto"}}>
-            <StyledTypography sx={{fontSize:36, width:"100%"}}>
+            <StyledTypography sx={{fontSize:36, minWidth:"100%"}}>
                 Clubes
             </StyledTypography>
         </Toolbar>
