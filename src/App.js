@@ -1,16 +1,16 @@
 import './App.css';
 import MainPage from './components/mainPage';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import LinksPage from './components/linkspage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<MainPage />}/>
         <Route path="/club/:link" element={<LinksPage />}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
