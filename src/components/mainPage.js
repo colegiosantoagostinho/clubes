@@ -1,10 +1,9 @@
 import React from "react";
 import NavBar from "./navBar";
 import ClubItem from "./clubItem"
-import { Paper } from "@mui/material";
 
 const MainPage = () => {
-    return <Paper>
+    return <div>
         <NavBar/>
         <div className="mainPart">
             <div className="column" id="firstColumn" >
@@ -42,7 +41,7 @@ const MainPage = () => {
                 <ClubItem whatsappLink={"https://chat.whatsapp.com/H3uCjyTQYxcC2UeQdKAv4F"} imageLink={"https://img.freepik.com/premium-vector/volleyball-vector-art-illustration-isolated-object-simple-logo-concept_660910-32.jpg?w=2000"} clubName={"Vôlei"} />
             </div>
         </div>
-    </Paper>
+    </div>
 }
 
 export default MainPage

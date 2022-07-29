@@ -9,7 +9,7 @@ const NavBar = () => {
 
     return <AppBar position="static" color="primary">
         <Toolbar style={{margin:"auto"}}>
-            <StyledTypography sx={{fontSize:36}}>
+            <StyledTypography sx={{fontSize:36, width:"100%"}}>
                 Clubes
             </StyledTypography>
         </Toolbar>
