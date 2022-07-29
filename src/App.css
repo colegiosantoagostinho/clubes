@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+#link  {
+  text-align: center;
+  font-size: 32pt;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+#thirdColumn {
+    margin-left: -2.2vh;
+}
+
+.clubName {
+  text-align: center;
+  font-size: 14pt;
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.linkPage {
+  width: 100vh;
+  height: 100vh;
+  margin-top: 40vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.clubItemContainer {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.clubImage {
+  margin: auto;
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  border-radius: 20%;
+}
+
+.mainPart {
+  width: 100vh;
+  margin-top: 4vh;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-evenly;
+  display: flex;
+}
