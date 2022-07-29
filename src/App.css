@@ -43,8 +43,8 @@ body {
 
 .clubImage {
   margin: auto;
-  height: 100px;
-  width: 100px;
+  height: 11vh;
+  width: 11vh;
   background-color: grey;
   border-radius: 20%;
 }
